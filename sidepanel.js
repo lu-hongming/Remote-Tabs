@@ -94,14 +94,6 @@ class DeviceTabsSidebar {
       }
     });
 
-    // Refresh button
-    const refreshBtn = document.getElementById("refreshBtn");
-    if (refreshBtn) {
-      refreshBtn.addEventListener("click", () => {
-        this.loadDevicesAndTabs();
-      });
-    }
-
     // Keyboard shortcuts
     document.addEventListener("keydown", (e) => {
       if (e.ctrlKey || e.metaKey) {
