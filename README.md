@@ -1,11 +1,12 @@
-<div align="left">
-  <img src="icons/icon128.png" alt="Remote Tabs Extension Icon" width="32" height="32" style="vertical-align: middle; margin-right: 10px;" />
-  <span style="font-size:2.2em; vertical-align: middle;"><b>Remote Tabs</b></span>
+<div align="center">
+
+![Remote Tabs icon](icons/icon128.png)
+
 </div>
 
-**Remote Tabs** is a Chrome extension that allows you to view and manage open tabs from all your devices directly in a convenient sidebar. This extension leverages Chrome's sync and sessions APIs to provide a seamless cross-device browsing experience.
+# Remote Tabs
 
----
+**Remote Tabs** is a Chrome extension that allows you to view and manage open tabs from all your devices directly in a convenient sidebar. This extension leverages Chrome's sync and sessions APIs to provide a seamless cross-device browsing experience.
 
 ## Features
 
@@ -24,13 +25,9 @@
 - **Auto-Refresh:**
   - Tabs and devices auto-refresh every 60 seconds.
 
----
-
 ## Screenshots
 
-![Screenshot](screenshot.png)
-
----
+![Screenshot](screenshot/screenshot.png)
 
 ## Installation
 
@@ -43,16 +40,12 @@
    - Drag and drop the downloaded `.crx` file onto the extensions page.
    - Confirm the installation when prompted.
 
----
-
 ## Usage
 
 - Click the Remote Tabs extension icon to open the sidebar.
 - Use the device dropdown to select which device's tabs to view.
 - Click on a tab to open it, or right-click for more options.
 - Use the search bar to filter tabs by title or URL.
-
----
 
 ## Permissions Explained
 
