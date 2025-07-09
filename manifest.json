@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Remote Tabs",
+  "version": "1.0.0",
+  "description": "View tabs from all your remote devices in sidebar",
+  "permissions": ["tabs", "sessions", "sidePanel", "storage"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Remote Tabs Sidebar"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
